@@ -1,23 +1,15 @@
-import { Menu,LastLine } from "./Utils"
+import { ProjectCard } from "./Utils"
 export const Project4 = () => {
     return (
         <div className="h-screen w-screen p-4">
-            <div className="custom-div relative">
-                <div className="text-orange-400 text-2xl md:text-3xl font-bold flex items-center justify-center h-full">
-                    WORKING IN PROGRESS
-                </div>
-                <div>
-            <Menu />
-          </div>
-          <div>
-            <LastLine 
-            pgno={"6"}
-            />
-            <div className="img-right">
-                <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />
-                </div>
-          </div>
-        </div>
+        <ProjectCard
+        img="/testimonialss.png"
+        title="Testimonialss - Display User Feedback Seamlessly"
+        description="A responsive testimonial wall built with React and Prisma, allowing businesses to showcase customer feedback dynamically. Users can leave reviews, and administrators can easily manage testimonials. Features include a customizable embedded widget, like functionality."
+
+        skills="TypeScript, React, Express, Node.js, Postgresql, Prisma ORM, Tailwind CSS, Vercel"
+        livelink="https://testimonialss.vercel.app/"
+        pageno="6" />
         </div>
     )
 }

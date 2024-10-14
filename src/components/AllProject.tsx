@@ -13,7 +13,7 @@ export const Project = () => {
                 <Card projectName='HYPERDEV'    img='project-icon.svg' link={()=>navigate('/project-1')}/>
                 <Card projectName='PAYZE'       img='project-icon.svg' link={()=>navigate('/project-2')}/>
                 <Card projectName='MEDIUMM'     img='project-icon.svg' link={()=>navigate('/project-3')}/>
-                <Card projectName='TESTIMONIAL' img='loading.svg'      link={()=>navigate('/project-4')}/>
+                <Card projectName='TESTIMONIAL' img='project-icon.svg' link={()=>navigate('/project-4')}/>
                 </div>
                 <div className="img-right">
                 <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />

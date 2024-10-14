@@ -26,7 +26,7 @@ export const Intro = () => {
             <div className="mt-4 text-xl">I build full stack applications</div>
 
             <div className="mt-8 md:mt-48 text-xl w-fit">
-                <a href="https://drive.google.com/file/d/1GUlB5YCQHwWWmlMQgsGADDDoSiM_28Nx/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                <a href="https://drive.google.com/file/d/1K-0PYEHr0C3TYW_M2iPI0S2kEBEQQvaA/view" target="_blank" rel="noopener noreferrer" className="flex items-center">
                     <div>RESUME</div>
                     <div><img src="arrow.svg" alt="" width={25}/></div> 
                 </a>
